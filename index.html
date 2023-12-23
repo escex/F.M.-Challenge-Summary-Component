@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:wght@500;700;800&family=Mohave:wght@347;403;470;550&family=Outfit:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resultContainer container">
+    <div class="resultBox">
+      <div class="resultScore col-md-6">
+        <h3>Your Result</h3>
+        <div class="scoreWheel">
+          <span class="big-score fontst">76</span>
+          <span class="small-score fontst">of 100</span>
+        </div>
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="resultSummary">
+        <h3>Summary</h3>
+        <div class="scores">
+
+          <div class="scoreunit reactionscore">
+            <div>
+              <img src="./assets/images/icon-reaction.svg" alt="reacticon">
+              <span class="fontst">Reaction</span>
+            </div>
+            <div>
+              <span class="black-text fontst">80</span>
+              <span class="grey-text fontst">/ 100</span>
+            </div>
+          </div>
+
+          <div class="scoreunit memoryscore">
+            <div>
+              <img src="./assets/images/icon-memory.svg" alt="reacticon">
+              <span class="fontst">Memory</span>
+            </div>
+            <div>
+              <span class="black-text fontst">92</span>
+              <span class="grey-text fontst">/ 100</span>
+            </div>
+          </div>
+
+
+          <div class="scoreunit verbalscore">
+            <div>
+              <img src="./assets/images/icon-verbal.svg" alt="reacticon">
+              <span class="fontst">Verbal</span>
+            </div>
+            <div>
+              <span class="black-text fontst">61</span>
+              <span class="grey-text fontst">/ 100</span>
+            </div>
+          </div>
+
+          <div class="scoreunit visualscore">
+            <div>
+              <img src="./assets/images/icon-visual.svg" alt="reacticon">
+              <span class="fontst">Visual</span>
+            </div>
+            <div>
+              <span class="black-text fontst">72</span>
+              <span class="grey-text fontst">/ 100</span>
+            </div>
+          </div>
+
+
+        </div>
+        <button class="continueButton">
+          <h3>Continue</h3>
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

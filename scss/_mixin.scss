@@ -1,0 +1,4 @@
+@mixin fontfamily($n) {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: $n;
+  }

@@ -1,0 +1,171 @@
+h1 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding: 0 35px 35px 35px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.fontst {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.resultBox {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 5px 68px 0px #b4b3b3;
+  border-radius: 20px;
+}
+
+.resultScore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  width: 50%;
+}
+
+.big-score {
+  font-size: 60px;
+}
+
+.small-score {
+  font-size: 14px;
+  opacity: 50%;
+}
+
+.scoreunit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.scoreWheel {
+  padding: 50px;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+
+.resultSummary {
+  padding: 0 20px 0 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: start;
+}
+
+.scores {
+  width: 100%;
+}
+
+.reactionscore {
+  background: hsla(0, 100%, 67%, 0.12);
+  color: hsl(0, 100%, 67%);
+}
+
+.memoryscore {
+  background: hsla(39, 100%, 56%, 0.12);
+  color: hsl(39, 100%, 56%);
+}
+
+.verbalscore {
+  background: hsla(166, 100%, 37%, 0.12);
+  color: hsl(166, 100%, 37%);
+}
+
+.visualscore {
+  background: hsla(234, 85%, 45%, 0.12);
+  color: hsl(234, 85%, 45%);
+}
+
+.black-text {
+  color: rgba(0, 0, 0, 0.846);
+  font-weight: bolder;
+}
+
+.grey-text {
+  color: gray;
+}
+
+.continueButton {
+  color: rgba(255, 255, 255, 0.829);
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  border-radius: 15px;
+  padding: 0 100px;
+}
+
+@media (max-width: 600px) {
+  .continueButton {
+    align-items: center;
+    margin-left: 20px;
+  }
+  .resultSummary {
+    padding: 15px;
+  }
+  .resultScore {
+    width: 100%;
+  }
+  .resultBox {
+    width: 330px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+/* 
+
+
+
+
+.reaction {
+    color: $reactioncolor;
+}
+
+.memory {
+    color: $memorycolor;
+}
+
+.verbal {
+    color: $verbalcolor;
+}
+
+.visual {
+    color: $visualcolor;
+}
+
+ */
+
+/*# sourceMappingURL=style.css.map */
